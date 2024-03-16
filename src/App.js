@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Firstpage from './components/Firstpage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Firstpage/>
+      {/* <div className='bg-[#ACE4E3] h-[800px] pt-[200px] '>
+
+        WORLD SUICIDE <span className='block '>PREVENTION</span>
+      </div>
+      <div className='rounded-lg w-96 h-96 border-2'>
+        <div className='ml-[4px]'>LEFT SIDE</div>
+        <div className='ml-[4px]'></div>
+      </div> */}
     </div>
   );
 }
